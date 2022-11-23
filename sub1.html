@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OIMU login</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout2.css">
+    <link rel="shortcut icon" href="images/FAVICON1.ico" type="image/x-icon">
+</head>
+<body>
+    <form action="#" method="post" id="login_f">
+        <h3><a href="index.html">OIMU  Login</a></h3>
+            
+        <fieldset>
+            <legend>Member Login</legend>
+            <div id="login">
+                <p><label for="u_id">아이디</label><input type="text" id="u_id"></p>
+                <p><label for="u_pwd">비밀번호</label><input type="password" id="u_pwd"></p>
+            </div><!-- login -->
+            <p><input type="submit" value="로그인" id="btnLogin"></p>
+            <p id="chk">
+                <input type="radio" name="chk" id="save_id">
+                <label for="save_id">아이디 저장</label>
+                <input type="radio" name="chk" id="secure">
+                <label for="secure">보안접속</label>
+            </p><!-- chk -->
+            <p id="btn">
+                <input type="button" value="회원가입">
+                <input type="button" value="id / pwd 찾기">
+            </p><!-- btn -->
+        </fieldset>
+    </form><!-- login_f -->
+</body>
+</html>

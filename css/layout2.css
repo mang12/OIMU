@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+@font-face{
+    font-family:Noto;
+    src:local("NotoSansKR"),
+        url(../font/AnyConv.com__NotoSansKR-Regular.eot),
+        url(../font/NotoSansKR-Regular.woff) format("woff"),
+        url(../font/AnyConv.com__NotoSansKR-Regular.ttf) format("truetype");
+}
+
+/* reset */
+*{text-decoration: none; color: inherit;}
+body, input { font: normal 13px/1.5em "Noto","NotoSansKR",sans-serif;}
+body { border-top: 15px solid #c2baba;background: linear-gradient(to bottom, rgb(255, 255, 255),#ddbeb9);}
+
+/* login_f */
+#login_f {width: 100%;height: 700px;}
+#login_f h3{ border-top: 30px solid #eaeaea; font: bold 35px "Noto","NotoSansKR",sans-serif; text-align: center; padding-top: 50px; color: #8f8989;}
+#login_f fieldset { border: 8px solid #8f8989; padding: 50px; width: 250px; margin: 20px auto;background-color: #fff; }
+#login_f fieldset legend { display: none;}
+
+#login {float: left; }
+#login label { font-weight: bold; width: 50px;display: inline-grid; width: 60px;}
+#login input { border: 1px solid #ccc; width: 90px; height: 20px; margin-bottom: 5px;}
+
+#btnLogin {background-color: #fff; border: 1px solid #ccc; font-weight: bold; color: #666; width: 82px; height: 53px; margin-left: 10px; cursor: pointer;}
+#btnLogin:hover { border-color: #333; background-color: #eaeaea;}
+
+#chk { clear: both; margin: 20px 0 10px 45px;}
+#chk input { vertical-align: -2px;}
+
+#btn { margin-left: 20px;}
+#btn input {background-color: #ccc; border: none; color: #fff; font-weight: bold; width: 110px; height: 25px; letter-spacing: -1px;}
+#btn input:hover { background-color: #8f8989; color: #fff; cursor: pointer;}
